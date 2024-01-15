@@ -11,6 +11,7 @@ open project created by Soham Parolia to predict closing price movements (target
 
 ## Introduction
 ![Alt text](https://github.com/sohamparolia/OptiverNasdaqStockVLG/blob/main/nasdaq.png)
+
 The Nasdaq Stock Market (National Association of Securities Dealers Automated Quotations Stock Market) is an American stock exchange based in New York City. It is the most active stock trading venue in the US by volume, and ranked second on the list of stock exchanges by market capitalization of shares traded.
 My project, a machine learning one, predicts the target variable, denoting the closing price movements of the stock. It is the 60 second future move in the wap of the stock, less the 60 second future move of the synthetic index. It is only provided for the train set.
 The project comprises of mainly 3 steps:
