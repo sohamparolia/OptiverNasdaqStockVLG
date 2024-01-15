@@ -1,9 +1,5 @@
 # OptiverNasdaqStockVLG
-open project created by Soham Parolia
-
-# Project Title
-
-A short description of your project.
+open project created by Soham Parolia to predict closing price movements (target) for hundreds of Nasdaq listed stocks using data from the order book and the closing auction of the stock. 
 
 ## Table of Contents
 
