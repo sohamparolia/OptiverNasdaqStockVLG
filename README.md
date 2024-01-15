@@ -37,6 +37,7 @@ The main models used are:
 1. LightGBM (default)
 2. LSTM
 3. Random Forest Regressor
+4. 
 The features used for prediction include essential information about each stock and its corresponding auction dynamics. These features encompass stock-specific identifiers (stock_id), date identifiers (date_id), auction characteristics such as imbalance size and imbalance buy/sell flag, reference price, matched size, far price, near price, bid/ask prices, bid/ask sizes, weighted average price (wap), and additional temporal information like seconds in the bucket. The target variable, representing the 60-second future move in the weighted average price of the stock minus the 60-second future move of the synthetic index, is available in the training set. The synthetic index is a custom-weighted index of Nasdaq-listed stocks specifically constructed for this competition by Optiver. This project aims to explore and compare the performance of different models in capturing the intricate dynamics of stock price movements during closing auctions.
 
 ## Installation
